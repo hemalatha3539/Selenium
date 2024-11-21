@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-13T10:29:59 IST" name="Suite" finished-at="2024-11-13T10:30:48 IST" duration-ms="48872">
+    <groups>
+      <group name="regression">
+        <method signature="TC_004Test.LE_04()[pri:0, instance:TcRepo.TC_004Test@305ffe9e]" name="LE_04" class="TcRepo.TC_004Test"/>
+        <method signature="TC_006Test.LE_06()[pri:0, instance:TcRepo.TC_006Test@1040be71]" name="LE_06" class="TcRepo.TC_006Test"/>
+      </group> <!-- regression -->
+      <group name="Smoke">
+        <method signature="TC_005Test.LE_05()[pri:0, instance:TcRepo.TC_005Test@6f10d5b6]" name="LE_05" class="TcRepo.TC_005Test"/>
+        <method signature="TC_006Test.LE_06()[pri:0, instance:TcRepo.TC_006Test@1040be71]" name="LE_06" class="TcRepo.TC_006Test"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2024-11-13T10:29:59 IST" name="Test" finished-at="2024-11-13T10:30:48 IST" duration-ms="48872">
+      <class name="TcRepo.TC_006Test">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:TcRepo.TC_006Test@1040be71]" started-at="2024-11-13T10:30:33 IST" name="launchBrowser" finished-at="2024-11-13T10:30:35 IST" duration-ms="2180" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="loginOperation()[pri:0, instance:TcRepo.TC_006Test@1040be71]" started-at="2024-11-13T10:30:35 IST" name="loginOperation" finished-at="2024-11-13T10:30:38 IST" duration-ms="2643" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginOperation -->
+        <test-method signature="LE_06()[pri:0, instance:TcRepo.TC_006Test@1040be71]" started-at="2024-11-13T10:30:38 IST" name="LE_06" finished-at="2024-11-13T10:30:42 IST" duration-ms="4438" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LE_06 -->
+        <test-method is-config="true" signature="logoutoperation()[pri:0, instance:TcRepo.TC_006Test@1040be71]" started-at="2024-11-13T10:30:42 IST" name="logoutoperation" finished-at="2024-11-13T10:30:48 IST" duration-ms="5529" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutoperation -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TcRepo.TC_006Test@1040be71]" started-at="2024-11-13T10:30:48 IST" name="closeBrowser" finished-at="2024-11-13T10:30:48 IST" duration-ms="303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TcRepo.TC_006Test -->
+      <class name="TcRepo.TC_004Test">
+        <test-method is-config="true" signature="dbconnection()[pri:0, instance:TcRepo.TC_004Test@305ffe9e]" started-at="2024-11-13T10:29:59 IST" name="dbconnection" finished-at="2024-11-13T10:29:59 IST" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dbconnection -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:TcRepo.TC_004Test@305ffe9e]" started-at="2024-11-13T10:30:00 IST" name="launchBrowser" finished-at="2024-11-13T10:30:03 IST" duration-ms="2991" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="loginOperation()[pri:0, instance:TcRepo.TC_004Test@305ffe9e]" started-at="2024-11-13T10:30:03 IST" name="loginOperation" finished-at="2024-11-13T10:30:05 IST" duration-ms="2553" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginOperation -->
+        <test-method signature="LE_04()[pri:0, instance:TcRepo.TC_004Test@305ffe9e]" started-at="2024-11-13T10:30:05 IST" name="LE_04" finished-at="2024-11-13T10:30:12 IST" duration-ms="7122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LE_04 -->
+        <test-method is-config="true" signature="logoutoperation()[pri:0, instance:TcRepo.TC_004Test@305ffe9e]" started-at="2024-11-13T10:30:12 IST" name="logoutoperation" finished-at="2024-11-13T10:30:18 IST" duration-ms="5540" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutoperation -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TcRepo.TC_004Test@305ffe9e]" started-at="2024-11-13T10:30:18 IST" name="closeBrowser" finished-at="2024-11-13T10:30:18 IST" duration-ms="242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="closeDBconnection()[pri:0, instance:TcRepo.TC_004Test@305ffe9e]" started-at="2024-11-13T10:30:49 IST" name="closeDBconnection" finished-at="2024-11-13T10:30:49 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDBconnection -->
+      </class> <!-- TcRepo.TC_004Test -->
+      <class name="TcRepo.TC_005Test">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:TcRepo.TC_005Test@6f10d5b6]" started-at="2024-11-13T10:30:18 IST" name="launchBrowser" finished-at="2024-11-13T10:30:20 IST" duration-ms="1999" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="loginOperation()[pri:0, instance:TcRepo.TC_005Test@6f10d5b6]" started-at="2024-11-13T10:30:20 IST" name="loginOperation" finished-at="2024-11-13T10:30:23 IST" duration-ms="2513" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginOperation -->
+        <test-method signature="LE_05()[pri:0, instance:TcRepo.TC_005Test@6f10d5b6]" started-at="2024-11-13T10:30:23 IST" name="LE_05" finished-at="2024-11-13T10:30:27 IST" duration-ms="4634" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LE_05 -->
+        <test-method is-config="true" signature="logoutoperation()[pri:0, instance:TcRepo.TC_005Test@6f10d5b6]" started-at="2024-11-13T10:30:27 IST" name="logoutoperation" finished-at="2024-11-13T10:30:33 IST" duration-ms="5511" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutoperation -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TcRepo.TC_005Test@6f10d5b6]" started-at="2024-11-13T10:30:33 IST" name="closeBrowser" finished-at="2024-11-13T10:30:33 IST" duration-ms="277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TcRepo.TC_005Test -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
